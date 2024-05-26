@@ -156,7 +156,7 @@
       },
 
       {
-        name: 'JAM TANGAN LED KOTAK PRIA',
+        name: 'JAM TANGAN LED KOTAK PRIA ORIGINAL',
         price: 'Rp 2.000.000.00',
         imageUrl: 'https://cf.shopee.co.id/file/dee43b9db7b6f458b5f917991b589a98' 
       },
