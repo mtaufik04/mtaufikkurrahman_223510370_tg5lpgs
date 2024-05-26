@@ -16,12 +16,21 @@
         </div>
       </div>
       <hr class="hr-line1">
-      <div class="footer">
         <p class="footer-text">
           Informasi tentang website:<br>
           website ini hanyalah sebagai tampilan interfacenya saja menu- <br>menu maupun fitur yang ada belum sepenuhnya bisa berfungsi <br>dikarenakan developer masih tahap belajar pada website ini <br>menampilkan interface toko online jam tangan pria. Jika nama dan<br>harga tidak valid harap maklum
         </p>
         <hr class="hr-line">
+        <div class="footer">
+          <p class="follow-us">FOLLOW US ON SOSIAL MEDIA :</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+  
         <p class="footer2">M.TAUFIK KURRAHMAN_223510370_COPYRIGHT 2024</p>
       </div>
     </div>
@@ -248,7 +257,7 @@
   
   .footer-text {
     text-align: left;
-    margin-bottom: 10px;
+    margin-top:50px;
   }
   
   .footer2 {
@@ -258,12 +267,31 @@
   }
   
   .hr-line1 {
-    border: 1px solid black; 
-    margin: -15px 20px; 
+    border: 1px solid blue;
+    margin: -15px 20px;
   }
   
   .hr-line {
-    border-top: 5px solid blue; 
+    border-top: 20px solid blue;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-left:-1250px;
+  }
+  
+  .social-icons a {
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .follow-us {
+    text-align: left;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left:-20px;
   }
   </style>
-  

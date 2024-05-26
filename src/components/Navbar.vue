@@ -1,9 +1,8 @@
 <template>
   <div>
     <q-layout view="hHh lpR fFf">
-      <q-header elevated class="bg-blue text-white" :style="{ height: '90px', fontFamily: 'Arial, sans-serif' }">
+      <q-header elevated class="bg-gradient-to-r from-teal-400 to-blue-500 text-white" :style="{ height: '100px', fontFamily: 'Arial, sans-serif' }">
         <div class="toolbar">
-          <q-avatar></q-avatar>
           <q-toolbar-title align="left" style="font-family: 'Pacifico', cursive;">
             TOKO JAM ONLINE
           </q-toolbar-title>
@@ -23,17 +22,17 @@
             />
           </div>
           <div class="q-gutter-md q-ml-none q-mr-sm">
-            <q-icon name="shopping_cart" color="white" class="profile-icon" style="font-size: 34px;" />
-            <q-icon name="person" color="white" class="profile-icon" style="font-size: 34px;" />
+            <q-icon name="shopping_basket" color="white" class="profile-icon" style="font-size: 34px;" />
+            <q-icon name="account_circle" color="white" class="profile-icon" style="font-size: 34px;" />
             <q-btn icon="notifications" class="q-ml-md">
               <q-badge floating color="red" rounded />
             </q-btn>
           </div>
         </div>
-          <div class="tab-container">
+        <div class="tab-container">
           <q-tabs align="left" class="tab-align">
-            <q-route-tab to="/page1" label="HOME" />
-            <q-route-tab to="/page2" label="PRODUCT" />
+            <q-route-tab to="/page1" label="HOME" icon="home" />
+            <q-route-tab to="/page2" label="PRODUCT" icon="store" />
           </q-tabs>
         </div>
       </q-header>
@@ -59,7 +58,7 @@
             <q-carousel-slide :name="2" img-src="https://blog.jamtangan.com/wp-content/uploads/2022/09/jam-tangan-untuk-kulit-sawo-matang.jpg" />
             <q-carousel-slide :name="3" img-src="https://blog.jamtangan.com/wp-content/uploads/2022/08/Cover-Blog-16-agustus-jam-tangan-pria-mahal.jpg" />
             <q-carousel-slide :name="4" img-src="https://s3.cosmopolitan.co.id/OPJam-Tangan-Cowo_60_20190224142449ISPNZQ.jpg" />
-            <q-carousel-slide :name="5" img-src="https://png.pngtree.com/png-clipart/20191120/original/pngtree-final-sale-discount-banner-template-promotion-design-for-business-png-image_5071733.jpg" />
+            <q-carousel-slide :name="5" img-src="https://static.vecteezy.com/system/resources/previews/000/176/229/original/vector-grand-offer-sale-and-discount-banner-template-for-promotion.jpg" />
           </q-carousel>
         </div>
       </q-page-container>
