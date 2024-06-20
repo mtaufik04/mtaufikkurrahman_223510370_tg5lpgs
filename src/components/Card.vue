@@ -194,8 +194,7 @@
     font-size: 24px;
     color: blue;
     border-radius: 10px;
-    margin: -350px -30px -300px -20px;
-    margin-bottom: 20px;
+    margin-top: -200px;
   }
   
   .hot-product-list {
@@ -210,6 +209,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
   }
   
   .product-wrapper {
@@ -252,18 +252,17 @@
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: -200px;
   }
   
   .footer-text {
     text-align: left;
-    margin-top:50px;
+    margin-top: 20px;
+    margin-top: 100px;
   }
   
   .footer2 {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: -20px;
   }
   
   .hr-line1 {
@@ -278,20 +277,21 @@
   .social-icons {
     display: flex;
     justify-content: center;
-    margin-top: -10px;
-    margin-left:-1250px;
+    margin-top: 10px;
   }
   
   .social-icons a {
-    margin-right: 20px;
     font-size: 20px;
     color: black;
+    margin: 0 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
   }
   
   .follow-us {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
-    margin-top: -20px;
-    margin-left:-20px;
   }
   </style>
